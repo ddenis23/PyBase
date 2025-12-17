@@ -1,6 +1,5 @@
-print("Hello World!!")
+#print("Hello World!!")
+#print("hello again")
 
-print("hello again")
-a = 4
-b = 5
-print(a*b)
+import cowsay
+cowsay.cow("Hello world!!")
