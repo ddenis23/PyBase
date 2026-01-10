@@ -35,7 +35,7 @@ suma2 = 9*(9+1)/2
 print(produs)
 print(type(suma2))
 
-var_flag = False
+var_flag = True
 
 if var_flag == True:
     print("Astazi este miercuri!!")
