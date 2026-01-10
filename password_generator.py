@@ -2,7 +2,7 @@ import random
 
 lower = "abcdefghjklmnoprsqtuvwxyz"
 upper = "ABCDEFGHJKLMNOPRSQTUWRXYZ"
-number = "0123456789"
+number = "01234567899"
 symbol = "!@#$%^&*()"
 
 all_strings = lower + upper + number + symbol
