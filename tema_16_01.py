@@ -3,6 +3,11 @@ raw_logs = [
     " info | System started successfully ",
     " WARNING | High temperature detected | code=W07 ",
     " ERROR | Communication timeout | code=E99 ",
+    " ERROR | Communication timeout | code=E99 ",
+    " ERROR | Communication timeout | code=E99 ",
+    " ERROR | Communication timeout | code=E99 ",
+    " ERROR | Communication timeout | code=E99 ",
+    " ERROR | Communication timeout | code=E99 ",
     " info | System shutdown complete "
 ]
 
@@ -19,7 +24,6 @@ for i in clean_logs:
     level = parts[0].strip()
     # print(levels)
 
-    # Identificăm tipul
     if "error" in level and level.startswith("error"):
         levels.append("error")
     elif "warning" in level and level.startswith("warning"):
@@ -27,7 +31,6 @@ for i in clean_logs:
     elif "info" in level and level.startswith("info"):
         levels.append("info")
 
-    # Extragem codurile
     for part in parts:
         part = part.strip()
         if "code=" in part:
@@ -37,7 +40,6 @@ for i in clean_logs:
             elif level.startswith("warning"):
                 warning_code.append(code)
 
-# Numărăm tipurile count()
 error = levels.count("error")
 warning = levels.count("warning")
 info = levels.count("info")
