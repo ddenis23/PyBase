@@ -2,11 +2,7 @@ raw_logs = [
     " ERROR | Voltage too LOW | code=E12 ",
     " info | System started successfully ",
     " WARNING | High temperature detected | code=W07 ",
-    " ERROR | Communication timeout | code=E99 ",
-    " ERROR | Communication timeout | code=E99 ",
-    " ERROR | Communication timeout | code=E99 ",
-    " ERROR | Communication timeout | code=E99 ",
-    " ERROR | Communication timeout | code=E99 ",
+    " ERROR | Communication timeout | code=E89 ",
     " ERROR | Communication timeout | code=E99 ",
     " info | System shutdown complete "
 ]

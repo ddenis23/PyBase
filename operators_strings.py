@@ -173,10 +173,10 @@ produs = 1
 # # sliced_list = my_list[:4]
 # # print(sliced_list)
 # print(my_list[-3])
-
-db = []
-get_data = ""
-while get_data != "STOP":
-    get_data = input("Add a data: ")
-    if get_data != "STOP": db.append(get_data)
-print(db)
+#
+# db = []
+# get_data = ""
+# while get_data != "STOP":
+#     get_data = input("Add a data: ")
+#     if get_data != "STOP": db.append(get_data)
+# print(db)
