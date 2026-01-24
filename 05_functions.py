@@ -123,4 +123,4 @@ def add_all_evens(param1):
             total += num
     return total
 
-print(f"Rezultatul adunarii numerelor pare din lista 3 este {add_all_evens(lista3)}")
+print(f"\nRezultatul adunarii numerelor pare din lista 3 este {add_all_evens(lista3)}")
