@@ -45,7 +45,7 @@ def extract_students(students):
         elif student["role"] == "bachelor":
             result["bachelor"].append(student)
     return result
-# print(extract_students(students))
+print(extract_students(students))
 # 3# 3. Creaza o functie "student_balance" care returneaza "bachelor" daca sunt mai multi bachelor decat masters, si "masters" daca sunt mai multi masters decat bachelor.
 
 def student_balance(students):
@@ -53,9 +53,9 @@ def student_balance(students):
     masters = 0
     for student in students:
         if student["role"] == "masters":
-            bachelor += 1
-        elif student["role"] == "bachelor":
             masters += 1
+        elif student["role"] == "bachelor":
+            bachelor += 1
     if bachelor > masters:
         return "bachelor"
     elif masters > bachelor:
